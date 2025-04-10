@@ -1,0 +1,11 @@
+### POST request to create patients
+POST http://192.168.56.123:4000/patients
+Content-Type: application/json
+
+{
+  "name": "John Doe with kafka",
+  "email": "test_kafka@example.com",
+  "address": "123 Main St",
+  "dateOfBirth": "1990-01-01",
+  "registeredDate": "2021-01-01"
+}
