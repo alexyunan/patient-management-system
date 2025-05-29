@@ -1,0 +1,11 @@
+### Login Request to retrieve access token
+POST http://192.168.1.8:4005/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
+
+
+
