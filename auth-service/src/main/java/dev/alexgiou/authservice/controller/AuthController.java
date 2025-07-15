@@ -16,7 +16,6 @@ import java.util.Optional;
  * @code @created: 5/28/2025
  */
 @RestController
-@RequestMapping("/api/auth")
 @RequiredArgsConstructor
 public class AuthController {
 
