@@ -1,5 +1,5 @@
 ### Login Request to retrieve access token
-POST http://192.168.1.8:4005/api/auth/login
+POST http://192.168.1.8:4004/login
 Content-Type: application/json
 
 {
