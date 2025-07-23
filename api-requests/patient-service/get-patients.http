@@ -1,2 +1,3 @@
 ### GET request to get all patients
 GET http://192.168.1.8:4004/api/patients
+Authorization: Bearer 32523485*&&^%&234234241124124124
