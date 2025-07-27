@@ -598,6 +598,50 @@
    },
    "UpdateReplacePolicy": "Delete",
    "DeletionPolicy": "Delete"
+  },
+  "AuthServiceDbHealthCheck": {
+   "Type": "AWS::Route53::HealthCheck",
+   "Properties": {
+    "HealthCheckConfig": {
+     "FailureThreshold": 3,
+     "IPAddress": {
+      "Fn::GetAtt": [
+       "AuthServiceDb4EA10E77",
+       "Endpoint.Address"
+      ]
+     },
+     "Port": {
+      "Fn::GetAtt": [
+       "AuthServiceDb4EA10E77",
+       "Endpoint.Port"
+      ]
+     },
+     "RequestInterval": 30,
+     "Type": "TCP"
+    }
+   }
+  },
+  "PatientServiceDbHealthCheck": {
+   "Type": "AWS::Route53::HealthCheck",
+   "Properties": {
+    "HealthCheckConfig": {
+     "FailureThreshold": 3,
+     "IPAddress": {
+      "Fn::GetAtt": [
+       "PatientServiceDb4C436D31",
+       "Endpoint.Address"
+      ]
+     },
+     "Port": {
+      "Fn::GetAtt": [
+       "PatientServiceDb4C436D31",
+       "Endpoint.Port"
+      ]
+     },
+     "RequestInterval": 30,
+     "Type": "TCP"
+    }
+   }
   }
  }
 }

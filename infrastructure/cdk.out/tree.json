@@ -1049,6 +1049,66 @@
               "version": "2.178.1",
               "metadata": []
             }
+          },
+          "AuthServiceDbHealthCheck": {
+            "id": "AuthServiceDbHealthCheck",
+            "path": "LocalStack/AuthServiceDbHealthCheck",
+            "attributes": {
+              "aws:cdk:cloudformation:type": "AWS::Route53::HealthCheck",
+              "aws:cdk:cloudformation:props": {
+                "healthCheckConfig": {
+                  "type": "TCP",
+                  "failureThreshold": 3,
+                  "ipAddress": {
+                    "Fn::GetAtt": [
+                      "AuthServiceDb4EA10E77",
+                      "Endpoint.Address"
+                    ]
+                  },
+                  "port": {
+                    "Fn::GetAtt": [
+                      "AuthServiceDb4EA10E77",
+                      "Endpoint.Port"
+                    ]
+                  },
+                  "requestInterval": 30
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_route53.CfnHealthCheck",
+              "version": "2.178.1"
+            }
+          },
+          "PatientServiceDbHealthCheck": {
+            "id": "PatientServiceDbHealthCheck",
+            "path": "LocalStack/PatientServiceDbHealthCheck",
+            "attributes": {
+              "aws:cdk:cloudformation:type": "AWS::Route53::HealthCheck",
+              "aws:cdk:cloudformation:props": {
+                "healthCheckConfig": {
+                  "type": "TCP",
+                  "failureThreshold": 3,
+                  "ipAddress": {
+                    "Fn::GetAtt": [
+                      "PatientServiceDb4C436D31",
+                      "Endpoint.Address"
+                    ]
+                  },
+                  "port": {
+                    "Fn::GetAtt": [
+                      "PatientServiceDb4C436D31",
+                      "Endpoint.Port"
+                    ]
+                  },
+                  "requestInterval": 30
+                }
+              }
+            },
+            "constructInfo": {
+              "fqn": "aws-cdk-lib.aws_route53.CfnHealthCheck",
+              "version": "2.178.1"
+            }
           }
         },
         "constructInfo": {

@@ -209,6 +209,18 @@
             "type": "aws:cdk:logicalId",
             "data": "PatientServiceDb4C436D31"
           }
+        ],
+        "/LocalStack/AuthServiceDbHealthCheck": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AuthServiceDbHealthCheck"
+          }
+        ],
+        "/LocalStack/PatientServiceDbHealthCheck": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PatientServiceDbHealthCheck"
+          }
         ]
       },
       "displayName": "LocalStack"
