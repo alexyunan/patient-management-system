@@ -275,15 +275,15 @@
             "type": "aws:cdk:warning",
             "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
             "trace": [
-              "Annotations.addMessage (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
-              "Annotations.addWarningV2 (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
-              "new BaseService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
-              "new FargateService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
-              "Kernel._Kernel_create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:548:25)",
-              "Kernel.create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:218:93)",
-              "KernelHost.processRequest (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:15467:36)",
-              "KernelHost.run (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:15427:22)",
-              "Immediate._onImmediate (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:15428:46)",
+              "Annotations.addMessage (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarningV2 (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
+              "new BaseService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
+              "new FargateService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
+              "Kernel._Kernel_create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:548:25)",
+              "Kernel.create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:218:93)",
+              "KernelHost.processRequest (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15467:36)",
+              "KernelHost.run (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15427:22)",
+              "Immediate._onImmediate (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15428:46)",
               "process.processImmediate (node:internal/timers:478:21)"
             ]
           }
@@ -335,15 +335,15 @@
             "type": "aws:cdk:warning",
             "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
             "trace": [
-              "Annotations.addMessage (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
-              "Annotations.addWarningV2 (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
-              "new BaseService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
-              "new FargateService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
-              "Kernel._Kernel_create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:548:25)",
-              "Kernel.create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:218:93)",
-              "KernelHost.processRequest (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:15467:36)",
-              "KernelHost.run (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:15427:22)",
-              "Immediate._onImmediate (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:15428:46)",
+              "Annotations.addMessage (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarningV2 (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
+              "new BaseService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
+              "new FargateService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
+              "Kernel._Kernel_create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:548:25)",
+              "Kernel.create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:218:93)",
+              "KernelHost.processRequest (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15467:36)",
+              "KernelHost.run (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15427:22)",
+              "Immediate._onImmediate (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15428:46)",
               "process.processImmediate (node:internal/timers:478:21)"
             ]
           }
@@ -395,15 +395,15 @@
             "type": "aws:cdk:warning",
             "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
             "trace": [
-              "Annotations.addMessage (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
-              "Annotations.addWarningV2 (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
-              "new BaseService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
-              "new FargateService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
-              "Kernel._Kernel_create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:548:25)",
-              "Kernel.create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:218:93)",
-              "KernelHost.processRequest (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:15467:36)",
-              "KernelHost.run (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:15427:22)",
-              "Immediate._onImmediate (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:15428:46)",
+              "Annotations.addMessage (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarningV2 (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
+              "new BaseService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
+              "new FargateService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
+              "Kernel._Kernel_create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:548:25)",
+              "Kernel.create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:218:93)",
+              "KernelHost.processRequest (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15467:36)",
+              "KernelHost.run (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15427:22)",
+              "Immediate._onImmediate (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15428:46)",
               "process.processImmediate (node:internal/timers:478:21)"
             ]
           }
@@ -455,15 +455,15 @@
             "type": "aws:cdk:warning",
             "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
             "trace": [
-              "Annotations.addMessage (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
-              "Annotations.addWarningV2 (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
-              "new BaseService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
-              "new FargateService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-GNQqIM\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
-              "Kernel._Kernel_create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:548:25)",
-              "Kernel.create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:218:93)",
-              "KernelHost.processRequest (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:15467:36)",
-              "KernelHost.run (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:15427:22)",
-              "Immediate._onImmediate (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime1400656845406634963\\lib\\program.js:15428:46)",
+              "Annotations.addMessage (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarningV2 (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
+              "new BaseService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
+              "new FargateService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
+              "Kernel._Kernel_create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:548:25)",
+              "Kernel.create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:218:93)",
+              "KernelHost.processRequest (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15467:36)",
+              "KernelHost.run (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15427:22)",
+              "Immediate._onImmediate (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15428:46)",
               "process.processImmediate (node:internal/timers:478:21)"
             ]
           }
@@ -478,6 +478,115 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "PatientServiceServiceSecurityGroup4A861D81"
+          }
+        ],
+        "/LocalStack/ApiGatewayTaskDefinition/TaskRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayTaskDefinitionTaskRole78FC06E2"
+          }
+        ],
+        "/LocalStack/ApiGatewayTaskDefinition/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayTaskDefinitionBB9A2505"
+          }
+        ],
+        "/LocalStack/ApiGatewayTaskDefinition/ExecutionRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayTaskDefinitionExecutionRoleE78CB745"
+          }
+        ],
+        "/LocalStack/ApiGatewayTaskDefinition/ExecutionRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayTaskDefinitionExecutionRoleDefaultPolicy3FBBB1F9"
+          }
+        ],
+        "/LocalStack/ApiGatewayLogGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiGatewayLogGroupA9770429"
+          }
+        ],
+        "/LocalStack/APIGatewayService/LB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "APIGatewayServiceLBDA2B7609"
+          }
+        ],
+        "/LocalStack/APIGatewayService/LB/SecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "APIGatewayServiceLBSecurityGroup8524BFD1"
+          }
+        ],
+        "/LocalStack/APIGatewayService/LB/SecurityGroup/to LocalStackAPIGatewayServiceSecurityGroupD9BADBA8:4004": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "APIGatewayServiceLBSecurityGrouptoLocalStackAPIGatewayServiceSecurityGroupD9BADBA84004289C8DEC"
+          }
+        ],
+        "/LocalStack/APIGatewayService/LB/PublicListener/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "APIGatewayServiceLBPublicListenerD6FA7F47"
+          }
+        ],
+        "/LocalStack/APIGatewayService/LB/PublicListener/ECSGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "APIGatewayServiceLBPublicListenerECSGroupF9D8CC70"
+          }
+        ],
+        "/LocalStack/APIGatewayService/LoadBalancerDNS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "APIGatewayServiceLoadBalancerDNS7C7318A3"
+          }
+        ],
+        "/LocalStack/APIGatewayService/ServiceURL": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "APIGatewayServiceServiceURL95056890"
+          }
+        ],
+        "/LocalStack/APIGatewayService/Service": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "minHealthyPercent has not been configured so the default value of 50% is used. The number of running tasks will decrease below the desired count during deployments etc. See https://github.com/aws/aws-cdk/issues/31705 [ack: @aws-cdk/aws-ecs:minHealthyPercent]",
+            "trace": [
+              "Annotations.addMessage (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarningV2 (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:825)",
+              "new BaseService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\base\\base-service.js:1:8100)",
+              "new FargateService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\aws-ecs\\lib\\fargate\\fargate-service.js:1:3551)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-kernel-Mpio9A\\node_modules\\aws-cdk-lib\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:1:3340)",
+              "Kernel._Kernel_create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:548:25)",
+              "Kernel.create (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:218:93)",
+              "KernelHost.processRequest (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15467:36)",
+              "KernelHost.run (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15427:22)",
+              "Immediate._onImmediate (C:\\Users\\alexa\\AppData\\Local\\Temp\\jsii-java-runtime10445974919861817062\\lib\\program.js:15428:46)",
+              "process.processImmediate (node:internal/timers:478:21)"
+            ]
+          }
+        ],
+        "/LocalStack/APIGatewayService/Service/Service": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "APIGatewayServiceA5206149"
+          }
+        ],
+        "/LocalStack/APIGatewayService/Service/SecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "APIGatewayServiceSecurityGroup98F3B93B"
+          }
+        ],
+        "/LocalStack/APIGatewayService/Service/SecurityGroup/from LocalStackAPIGatewayServiceLBSecurityGroup6EE77D33:4004": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "APIGatewayServiceSecurityGroupfromLocalStackAPIGatewayServiceLBSecurityGroup6EE77D33400402B8DCE2"
           }
         ]
       },
